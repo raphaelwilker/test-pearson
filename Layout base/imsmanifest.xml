@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Manifest template to demonstrate the proper XML namespace declarations for
+SCORM 1.2 manifests. 
+
+Provided by Rustici Software - www.scorm.com.
+-->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="com.scorm.manifesttemplates.scorm12" version="1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd                            http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd                            http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="B0">
+    <organization identifier="B0">
+      <title>Teste scorm</title>
+      <item identifier="ITEM-3DC4EE66013BE225FAC453D32F521049" identifierref="RES-ABC60C48D43E728B477EC4F8ABA585CE" isvisible="true">
+        <title>Sco</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-ABC60C48D43E728B477EC4F8ABA585CE" type="webcontent" href="templateconteudo.html">
+      <file href="templateconteudo.html" />
+      <file href="css/style.css" />
+      <file href="dtree/dtree.css" />
+      <file href="dtree/dtree.js" />
+      <file href="images/bg-content-dir.jpg" />
+      <file href="images/bg-content-inf-left.jpg" />
+      <file href="images/bg-content-inf-right.jpg" />
+      <file href="images/bg-content-left2.jpg" />
+      <file href="images/bg-content-sup-dir.jpg" />
+      <file href="images/bg-content-sup-esq.jpg" />
+      <file href="images/bg-content-sup.jpg" />
+      <file href="images/bg-content.jpg" />
+      <file href="images/bg-menu-seguranca-trabalho.jpg" />
+      <file href="images/black_arrow.png" />
+      <file href="images/content-slice-right.jpg" />
+      <file href="images/fonte-contraste.jpg" />
+      <file href="images/fonte-mais.jpg" />
+      <file href="images/fonte-menos.jpg" />
+      <file href="images/header.jpg" />
+      <file href="images/menu-right.jpg" />
+      <file href="images/senai.jpg" />
+      <file href="images/seta-left.jpg" />
+      <file href="images/seta-right.jpg" />
+      <file href="images/slice-menu-left.jpg" />
+      <file href="images/vazio.jpg" />
+      <file href="images/visitado.jpg" />
+      <file href="js/acoes.js" />
+      <file href="js/jquery.tools.min.js" />
+      <file href="menu.js" />
+      <file href="paginas/css/jquery.lightbox-0.5.css" />
+      <file href="paginas/css/pagina.css" />
+      <file href="paginas/imgs/capa.png" />
+      <file href="paginas/js/jquery-ui.min.js" />
+      <file href="paginas/js/jquery.lightbox-0.5.min.js" />
+      <file href="scripts/APIWrapper.js" />
+      <file href="scripts/SCOFunctions.js" />
+    </resource>
+  </resources>
+</manifest>
+

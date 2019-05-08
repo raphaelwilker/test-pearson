@@ -1,0 +1,113 @@
+<style>
+  div.bg_Box {
+    position: absolute;
+    background-color: #abc;
+    left: 50px;
+    width: 614px;
+    height: 289px;
+    margin: 5px;
+  }
+  
+  div.bg_Box_Table_Up {
+    position: absolute;
+    background-color: #3e05f9;
+    left: 50px;
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+  }
+  
+    div.bg_Box_Table_Down {
+    position: absolute;
+    background-color: #FFFFFF;
+    left: 50px;
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+  }
+  
+    td.bg_tr {
+    background-color: #CCC;
+  }
+ </style>
+<script>
+$(document).ready(function(){
+	
+	var index = 1
+	
+	$("#btn1").click(function(){
+		index++;
+		control();
+	});
+	
+	$("#btn2").click(function(){
+		index--;
+		control();
+	});
+	
+	
+	function control()
+	{
+		switch(index)
+		{
+			case 1:
+			break;
+			case 2:
+			break;
+			case 3:
+			break;
+			case 4:
+			break;
+			case 5:
+			break;
+		}
+	}
+});
+</script> 
+ 
+<h1>Gera&ccedil;&atilde;o de tens&atilde;o alternada em diferentes posi&ccedil;&otilde;es</h1>
+
+<p>A unidade de medida de frequência &egrave; o <strong>hertz (Hz)</strong>, que corresponde a um <strong>ciclo por segundo (c/s)</strong>.</p>
+<p>Como toda a unidade de medida, o hertz apresenta seus múltiplos e submúltiplos. Veja a seguir:</p>
+
+<div class="bg_Box">
+<p align="center">Exemplo para conversão de frequência</p>
+<p align="center">Converter <strong>63,7 MHz (Hertz)</strong> em miliHertz (mHz)</p>
+
+
+
+
+<div class="bg_Box_Table_Up">
+	<table>
+		<tr><td>Megahertz</td><td>Quilohertz</td><td>Hertz</td><td>Milihertz</td><td>Nanohertz</td></tr>
+	</table>
+</div>
+<br><br><br>
+
+<div class="bg_Box_Table_Down">
+	<table>
+		<tr>
+		<td class="bg_tr">0</td><td></td><td class="bg_tr">0</td><td></td><td class="bg_tr">0</td><td></td>
+		<td class="bg_tr">0</td><td></td><td class="bg_tr">0</td><td></td><td class="bg_tr">0</td><td></td>
+		<td class="bg_tr">0</td><td></td><td class="bg_tr">0</td><td></td><td class="bg_tr">0</td><td></td>
+		<td class="bg_tr">0</td><td></td><td class="bg_tr">0</td><td></td><td class="bg_tr">0</td><td></td>
+		<td class="bg_tr">0</td><td></td><td class="bg_tr">0</td><td></td><td class="bg_tr">0</td><td></td>
+		</tr>
+	</table>
+	
+</div>
+<table>
+<tr>
+<td>
+<div id="btn1">
+	<img src="paginas/PIV/btVoltar.png">
+</div> 
+</td>
+<td>
+<div id="btn2">
+	<img src="paginas/PIV/btAvancar.png">
+</div>
+</td>
+</tr>
+</table>
+</div>

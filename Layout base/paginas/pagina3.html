@@ -1,0 +1,114 @@
+<style>
+
+  
+ </style>
+<script>
+$(document).ready(function(){
+	
+	var index = 1
+	
+	$("#btn1").hide(0);
+	
+	$("#btn1").click(function(){
+		index--;
+		control();
+	});
+	
+	$("#btn2").click(function(){
+		index++;
+		control();
+	});
+	
+	
+	function control()
+	{
+		switch(index)
+		{
+			case 1:
+			$("#btn1").hide(0);
+			for(var i = 1; i<16;i++)
+			{
+				$("#c"+i).html("&nbsp;&nbsp;");
+				$("#s"+i).text(" ");
+			}
+			$("#instructions").text(" ");
+			break;
+			case 2:
+			$("#c2").text("6");
+			$("#c3").text("3");
+			$("#s3").text(",");
+			$("#c4").text("7");
+			$("#btn1").show(50);
+			$("#instructions").text("Coloque o número na tabela, na posição da unidade de medida MHz e mantenha a vírgula na linha após a unidade MHz.");
+			break;
+			case 3:
+			$("#s12").text(",");
+			$("#s3").text(" ");
+			$("#instructions").text("Mude agora a vírgula até a posição após mHz");
+			break;
+			case 4:
+			$("#c5").text("0");
+			$("#c6").text("0");
+			$("#c7").text("0");
+			$("#c8").text("0");
+			$("#c9").text("0");
+			$("#c10").text("0");
+			$("#c11").text("0");
+			$("#c12").text("0");
+			$("#btn2").show(50);
+			$("#instructions").text("Complete com zero cada casa vazia de modo a preencher todas as casas da coluna até mHz");
+			break;
+			case 5:
+			$("#s12").text(" ");
+			$("#instructions").text("O valor obtido será de 63,7 MHz = 63700000000 mHz");
+			$("#btn2").hide(0);
+			break;
+		}
+	}
+});
+</script> 
+ 
+<h1>Gera&ccedil;&atilde;o de tens&atilde;o alternada em diferentes posi&ccedil;&otilde;es</h1>
+
+<p>A unidade de medida de frequ&ecirc;ncia &egrave; o <strong>hertz (Hz)</strong>, que corresponde a um <strong>ciclo por segundo (c/s)</strong>.</p>
+<p>Como toda a unidade de medida, o hertz apresenta seus m&uacute;ltiplos e subm&uacute;ltiplos. Veja a seguir:</p>
+
+
+<div class="bg_Box">
+<p align="center">Exemplo para convers&atilde;o de frequ&ecirc;ncia</p>
+<p align="center">Converter <strong>63,7 MHz (Hertz)</strong> em miliHertz (mHz)</p>
+
+
+<table class="content_table">
+<tr>
+	<td>
+		<div id="btn1" class="btn" >
+			<a href="#"><img src="paginas/PIV/btVoltar.png"></a>
+		</div>
+	</td>
+	<td>
+	
+			<table class="Table_Up">
+				<tr><th>&nbsp;Megahertz&nbsp;</th><th>&nbsp;Quilohertz&nbsp;</th><th>&nbsp;Hertz&nbsp;</th><th>&nbsp;Milihertz&nbsp;</th><th>&nbsp;Nanohertz&nbsp;</th></tr>
+			</table>
+			
+			<table class="bg_Box_Table_Down">
+				<tr>
+					<td class="bg_tr" id="c1">&nbsp;&nbsp;</td><td id="s1"></td><td class="bg_tr" id="c2">&nbsp;&nbsp;</td><td id="s2"></td><td class="bg_tr" id="c3">&nbsp;&nbsp;</td><td id="s3"></td>
+					<td class="bg_tr" id="c4">&nbsp;&nbsp;</td><td id="s4"></td><td class="bg_tr" id="c5">&nbsp;&nbsp;</td><td id="s5"></td><td class="bg_tr" id="c6">&nbsp;&nbsp;</td><td id="s6"></td>
+					<td class="bg_tr" id="c7">&nbsp;&nbsp;</td><td id="s7"></td><td class="bg_tr" id="c8">&nbsp;&nbsp;</td><td id="s8"></td><td class="bg_tr" id="c9">&nbsp;&nbsp;</td><td id="s9"></td>
+					<td class="bg_tr" id="c10">&nbsp;&nbsp;</td><td id="s10"></td><td class="bg_tr" id="c11">&nbsp;&nbsp;</td><td id="s11"></td><td class="bg_tr" id="c12">&nbsp;&nbsp;</td><td id="s12"></td>
+					<td class="bg_tr" id="c13">&nbsp;&nbsp;</td><td id="s13"></td><td class="bg_tr" id="c14">&nbsp;&nbsp;</td><td id="s14"></td><td class="bg_tr" id="c15">&nbsp;&nbsp;	</td><td id="s15"></td>
+				</tr>
+			</table>
+
+		<p id="instructions"></p>
+		
+	</td>
+	<td>
+		<div id="btn2" class="btn" >
+			<a href="#"><img src="paginas/PIV/btAvancar.png"></a>
+		</div>
+	</td>
+<tr>
+</table>

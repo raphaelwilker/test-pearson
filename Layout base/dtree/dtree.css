@@ -1,0 +1,48 @@
+.dtree {
+	position: relative;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	white-space: nowrap;
+	float:left;
+	margin-top:25px;
+    overflow: auto;
+    width: 165px;
+    height: 497px;
+}
+.dtree img {
+	border: 0px;
+	vertical-align: text-bottom; 
+}
+.dtree a {
+	text-decoration: none;
+    height: 10px;
+	background-repeat: no-repeat;
+}
+.dtree a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+.dtree .node {
+	position: relative;
+	top: -2px;
+	padding: 1px;
+	color: #666;
+    margin-left: 6px;/*3*/
+}
+.file img{
+	padding-left: 8px;  
+}
+.file{
+    background-image: url(../images/vazio.jpg);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.dtree .nodeSel {
+	position: relative;
+	top: -2px;
+	padding: 1px;
+	color: #666;
+	background-repeat: no-repeat;
+	/* [disabled]background-color: #c0d2ec; */
+}

@@ -1,0 +1,323 @@
+#capa{
+    text-align: center;
+}
+.all {
+	text-align:center; /* hack para o IE */ 
+}
+.tudo {
+	margin: 0 auto;
+	width: 900px;
+	text-align:left; /* "remédio" para o hack do IE */  
+}
+/* verde eletroeletrônica - 155 255 155 ou #9BFF9B */
+/* verde escuro para o texto #009966 */
+.tudo p, #conteudo p, #conteudo strong, #conteudo em  {
+	text-align: justify;
+	font-family: Verdana;
+	font-size: 13px;
+	line-height: 1.8em;
+	margin-top: 1.1em;
+}
+#conteudo a {
+	font-family: Verdana;
+	font-size: 13px;	
+}
+#conteudo h1 {
+	font-family: Verdana;
+	font-size: 18px;
+	color: #009966;
+	margin-bottom: 20px;
+}
+#conteudo h2 {
+	font-family: Verdana;
+	font-size: 15px;
+	color: #666;
+	margin-bottom: 20px;
+}
+#conteudo h3 {
+	font-family: Verdana;
+	font-size: 13px;
+	color: #009966;
+	margin-bottom: 20px;
+}
+#conteudo h1 em {
+	font-family: Verdana;
+	font-size: 18px;
+	color: #009966;
+}
+#conteudo a.ext {
+	padding: 2px;
+	text-decoration: underline;
+	color:#009;
+}
+#conteudo a.ext:hover {
+	background-color: #9BFF9B;
+}
+#conteudo a.mo {
+	padding: 2px;
+	text-decoration: none;
+	color:#666;
+	background-color: #9BFF9B;
+}
+#conteudo a.mo:hover {
+	color: #fff;
+	background-color: #009966;
+}
+#conteudo ul {
+	margin-left: 20px;
+	margin-top: 1.1em;
+	}
+#conteudo li {
+	font-family: Verdana;
+	font-size: 13px;
+	line-height: 1.8em;
+}
+#conteudo table th {
+	font-size: 1.1em;
+	letter-spacing: .05em;
+}
+/* para não estragar o h3 dentro do accordion */
+#conteudo #accordion h3 {
+	margin-bottom: 0;
+}
+.figura {
+    float:left;
+    margin: 0px 30px 10px 0;
+}
+.figuraD {
+    float:right;
+    margin: 0px 0 10px 30px;
+}
+.figuraCentro {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* destaque colorido */
+.destaque {
+	padding: 1px 10px 10px 10px;
+	margin: 20px 0;
+    clear: both;
+    display: block;
+	overflow: auto;
+}
+.destaque p {
+	line-height: 18px;
+}
+/* final da etapa - destaque cinza, texto vermelho
+    ideal para ser usado com div */
+.fimEtapa {
+	/*background-color: #929292;*/
+	border: solid 3px #929292;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	padding: 1px 10px 10px 10px;
+	margin: 20px 0;
+    clear: both;
+	overflow: auto;
+	font-weight: bolder;
+}
+/* para a cor ser aplicada de fato, pois o JS de acessibilidade altera a cor do p 
+   para o alinhamento ser aplicado de fato */
+#conteudo .fimEtapa p {
+	color: #C00000;
+	text-align: center;
+}
+/* imagens dentro da caixa destaque - inserir classe na imagem */
+/*.destaqueImg {
+	float:left;
+	margin-right: 20px;
+	border: none;
+}*/
+
+/* caixas especiais com imagens específicas */
+/* desafio com imagem específica à direita */
+/*.desafio {
+	background: url(../imgs/desafio.png) no-repeat;
+	padding: 1px 10px 10px 250px;
+	margin: 20px 50px;
+    clear: both;
+	overflow: auto;
+	min-height: 160px;
+	}
+.situacaoAprendizagem {
+	background: url(../imgs/situacaoAprendizagem.png) no-repeat center left;
+	padding: 1px 10px 10px 100px;
+	margin: 20px 0;
+    clear: both;
+	overflow: auto;
+	min-height: 100px;
+	}
+.saibamais {
+	background-color: #9bff9b;
+	padding: 1px 10px 10px 10px;
+    clear: both;
+    display: block;
+    width:98%;
+	overflow: auto;
+}
+.bgColorido {
+	background-color: #9bff9b;
+	padding: 1px 10px 10px 10px;
+    clear: both;
+    width:98%;
+}*/
+.caixaMenor {
+	width: 230px;
+	margin: 0 auto;
+}
+.bgEscuro {
+	background-color: #009966;
+}
+.bgClaro {
+	background-color: #9bff9b;
+}
+.bordaColorida {
+	border: solid 2px #9bff9b;
+	-webkit-moz-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	padding: 1px 10px 10px 10px;
+}
+.bordaColoridaVE {
+	border: solid 2px #009966;
+	-webkit-moz-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	padding: 1px 10px 10px 10px;
+}
+/* item de lista que aparece em seguencia */
+li.bgColorido {
+	list-style-position: inside;
+	padding-top: 12px;
+}
+li.bordaColorida {
+	list-style-position: inside;
+	padding-top: 12px;
+}
+.lampada{
+    border: none;
+}
+/*.saibamaisImg {
+	float:left;
+	margin-right: 20px;
+	border: none;
+}*/
+.tituloCenter {
+	text-align: center;
+	font-weight: bolder;
+}
+.cap2 {display: none;}
+
+/* botões : texto em forma de botões */
+.botao {
+	color: #000;
+	font-weight: bold;
+	border: solid 2px #009966;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+	padding: 5px;
+	}
+a:hover.botao {
+	background-color: #9bff9b;
+}
+
+/* troca aba - feito com tabelas e divs */
+.menu_ativo, .menu_inativo {
+	color: #000;
+	font-weight: bold;
+	border: solid 2px #009966;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+	padding: 10px 0;
+	text-align: center;
+	margin-bottom: 7px;
+	/*height: 30px;*/
+}
+.menu_ativo {
+	background-color: #9Bff9B;
+}
+.menu_inativo {
+	background-color: #fff;
+	cursor: pointer;
+}
+.menu_inativo:hover {
+	background-color: #9Bff9B;
+}
+
+/* ajuste troca aba para perguntas à esquerda e respostas à direita */
+#perguntasErespostas {width: 100%;}
+#perguntas {width: 20%;float:left;}
+.respostas {width: 78%;float:right;}
+
+/* exercícios */
+.exercicio{
+    margin-top: 20px;
+}
+.exercicio label{
+    font-size: 15px;
+    font-family: verdana;
+    line-height: 30px;
+}
+.exercicio input[value="Enviar"] {
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 5px;
+}
+/* tabelas */
+#conteudo .tabSimples {
+	margin-top: 20px;
+}
+#conteudo .tabSimples td, #conteudo .tabSimples th  {
+	border: solid 1px #009966;
+}
+#conteudo .tabSimples th  {
+	background-color: #9bff9b;
+}
+#conteudo table.tabSimples {
+	border-collapse:collapse;
+}
+#conteudo table.tabSimples th p, #conteudo table.tabSimples td p {
+	margin: 3px;
+}
+#conteudo table.tabSimples th p, #conteudo table.tabSimples td.centro p{
+	text-align: center;
+}
+/* tabela interativa - miolo */
+#conteudo .tabInterativaColor td, #conteudo .tabInterativaColor th,  {
+	border: solid 1px #9bff9b;
+	background-color: red;
+	color: red;
+}
+#conteudo table.tabInterativaColor {
+	border-collapse:collapse;
+}
+
+/* limpar float */
+.limpa {
+	clear: both;
+}
+/* zerar borda das imagens com link */
+#conteudo a img{
+	border: none;
+}
+/* zerar borda das imagens com mapa de link */
+img[usemap] {
+	border: none;
+}
+#conteudo div.btn{
+	
+}

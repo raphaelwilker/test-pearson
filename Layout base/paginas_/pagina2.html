@@ -1,0 +1,57 @@
+<script>
+$(document).ready(function(){
+	for(var i=1;i<6;i++)
+	{
+		$('#box'+i).click(function(){
+			var num = this.id.substring(3,4);
+			var id = this.id;
+			$('#box-content').html('<img src=\'images/lightbox-ico-loading.gif\'  style="margin: 180px 45%" />');
+			$.ajax({
+              url: 'paginas/subpaginas/pagina'+num+'.html',
+			  success: function(data){
+				$("#box-content").html(data);
+				//$("#"+id+"_"+num).remove();
+				$("#"+id+"_"+num).attr('src','paginas/imgs/btn'+num+'_1.jpg')
+				
+			  }
+			  });
+
+		});
+	}
+	
+});
+</script>
+<h1>Gera&ccedil;&atilde;o de tens&atilde;o alternada em diferentes posi&ccedil;&otilde;es</h1>
+<p>Clicando em cada box abaixo, voc&ecirc; ver&aacute; como ocorre a gera&ccedil;&atilde;o de tens&atilde;o alternada em diferentes posi&ccedil;&otilde;es:</p>
+<table>
+<tr>
+<td>
+<div id="box1" class="bnt" >
+	<img src="paginas/imgs/btn1.jpg" id="box1_1">
+</div>
+</td>
+<td>
+<div id="box2" class="bnt" >
+	<img src="paginas/imgs/btn2.jpg" id="box2_2">
+</div>
+</td>
+<td>
+<div id="box3" class="bnt" >
+	<img src="paginas/imgs/btn3.jpg" id="box3_3">
+</div>
+</td>
+<td>
+<div id="box4" class="bnt" >
+	<img src="paginas/imgs/btn4.jpg" id="box4_4">
+</div>
+</td>
+<td>
+<div id="box5" class="bnt" >
+	<img src="paginas/imgs/btn5.jpg" id="box5_5">
+</div>
+</td>
+</tr>
+</table>
+
+<div id="box-content">
+</div>

@@ -1,0 +1,86 @@
+*, html * {margin:0;padding:0;font-family:Myriad Pro;font-size:12px;text-decoration:none;color:#000;}
+
+/* verde claro eletroeletrônica - 155 255 155 ou #9BFF9B */
+/* verde escuro (p textos) eletroeletrônica - #009966 */
+
+#all {clear:both;}
+
+#header {clear:both;height:71px;background-image:url(../images/header.jpg);}
+#header img {margin: 10px 15px;}
+
+#menu { background-image: url(../images/bg-menu-qsm.jpg);height: 535px;float: left;margin:4px 0 10px 10px;width: 190px;}
+
+#main {height: 100%}
+
+#bg-right {float: left;width: 34px;margin-top: 3px;height: 530px;background-image: url(../images/menu-right.jpg);background-repeat: no-repeat; background-position: right}
+#bg-left    {margin-top:-5px;float: left;background-image: url(../images/slice-menu-left.jpg);background-repeat: no-repeat;height: 100%;width: 8px}
+
+#content {position: relative;width:83%;height:350px;background-image: url(../images/bg-content.jpg);background-repeat: repeat-x;background-position: bottom;float:right;}
+
+#content-inf-dir {position: absolute;bottom: 0;right: 0px;background-image: url(../images/bg-content-inf-right.jpg);background-position: bottom;width: 20px;height: 15px;}
+#content-inf-esq {position: absolute;bottom: 0;left: -2px;background: url(../images/bg-content-inf-left.jpg) no-repeat scroll left bottom;background-position: bottom;width: 15px;height: 17px;}
+#content-sup-dir {background-image: url(../images/bg-content-sup-dir.jpg);background-position: right;width: 26px;height: 20px;position: absolute;right: 0;margin-top: 6px}
+#content-sup-esq {background-image: url(../images/bg-content-sup-esq.jpg);background-position: left;width: 14px;height: 20px;margin-top: 3px}
+#content-esq {float: left;background-image: url(../images/bg-content-left2.jpg);background-position: left;width: 11px;height: 20px;height:94%;}
+#content-dir {float: right;background-image: url(../images/bg-content-dir.jpg);background-position: left;width: 20px;height: 20px;margin-top: 10px;height: 96%;}
+#content-sup {background-image: url(../images/bg-content-sup.jpg);background-position: top;height: 20px;margin: -23px 0 0 11px }
+
+
+
+.navegacao-content {bottom: 0;margin-left: 30px;width: 100px;float: left;position: absolute}
+.font-content {float: right;margin-right: 20px;margin-top: -20px;display: block}
+
+#conteudo {margin: 30px 30px 10px 30px;height: auto;overflow: auto;padding: 10px;}
+#conteudo p{text-align: justify;font-family: Verdana;font-size: 13px;line-height: 1.8em;}
+#content-left {margin: 5px 0 5px 0;width:11px;height:536px;background-image:url(../images/bg-content-left2.jpg);background-position: left;float:left;}
+#content-right {width:26px;height:536px;background-image:url(../images/content-slice-right.jpg);background-repeat: no-repeat;float:right;}
+
+.sair {float: right;margin-top: 20px;margin-right:  20px;font-size: 15px}
+.unidade {margin-top: 20px}
+
+.visitado {background-image: url(../images/visitado.jpg);background-position: left;background-repeat: no-repeat; }
+.migalha {margin-top: 10px;margin-left: 20px;color: #666;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;font-weight: bold;font-size: 11px;}
+
+
+.tooltip {
+	display:none;
+	background:transparent url(../images/black_arrow.png);
+	font-size:12px;
+	height:20px;
+	width:140px;
+	padding:15px 20px;
+	color:#fff;	
+}
+
+  div.bg_Box {
+    position: absolute;
+    background-color: #abc;
+    left: 50px;
+    width: 614px;
+    height: 289px;
+    margin: 5px;
+  }
+  
+    table.bg_Box_Table_Down {
+    background-color: #FFFFFF;
+    left: 50px;
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+  }
+  
+    td.bg_tr {
+    background-color: #CCC;
+	font-size:25px;
+	}
+  
+  table.Table_Up{
+	color:#ffffff;
+	background-color: #3e05f9;
+	font-size:35px;
+	margin: 5px;
+  }
+  
+  div.btn{
+	cursor:auto;
+  }
